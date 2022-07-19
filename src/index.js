@@ -2,8 +2,15 @@
 
 //console.log(validator);
 
-let button = document.getElementById("boton");
+// conectar el dom con la funcionalida logica
 
-function botonValidar (event) {
-   document.getElementById ("inputNumero").value;
-}
+const boton=document.getElementById("boton")
+let numeroTarjeta = document.getElementById("numeroTarjeta")
+
+boton.addEventListener('click',function(e){
+   e.preventDefault();
+   let mensaje=numeroTarjeta.value
+   console.log(mensaje)
+})
+
+

@@ -21,7 +21,7 @@
             <p class="p2"> Pago con tarjeta de crédito</p> 
               <form action="" id="formulario" class="formulario">
                 <label for="numeroTarjeta" id="inputNumero"></label>
-                  <input type="text" id="numeroTarjeta" placeholder="Número de tarjeta" maxlength="16" required><br> <!--No me sirv e el required y me sale el autocompletao-->
+                  <input type="tel" id="numeroTarjeta" inputmode="numeric"  pattern="[0-9]"  minlength="16" maxlength="16"  placeholder="Número de tarjeta" required><br> <!--No me sirv e el required y me sale el autocompletao-->
                 <label for="nombreTarjeta"></label>
                  <input type="text" id="nombreTarjeta" placeholder="Nombre del titular"><br>
                 <div class="mini-contenedor">

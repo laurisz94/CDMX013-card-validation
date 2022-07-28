@@ -17,7 +17,7 @@ for (let i=0; i < creditCard.length; i++) { //se cra un ciclo for que va desde l
 let reverseAarrayNumber = validacionCardNumber//Es para guardar el valor que da en los array 
 
 //console.log(reverseAarrayNumber)
-let numero = 0
+//let numero = 0
     for (let i = 1; i < reverseAarrayNumber.length; i = i + 2) {//aqui ya tengo las posiciones que van ser pares 
    let multiplicacion = 2 * reverseAarrayNumber[i];  
     //reverseAarrayNumber[i] = multiplicacion
@@ -39,19 +39,37 @@ let suma = reverseAarrayNumber.reduce((numero, total)=> numero += total, 0);
 //console.log(suma)
 
 if (suma % 10 === 0){
-    console.log("valida");
+    //console.log("valida");
     return true
 }
     else {
-        console.log ("invalida");
+        //console.log ("invalida");
         return false
     }
 
 //Si la condicion dice que la posicion par es igual a 0 es par    
-}
 
-}
+},
+maskify : function (creditCard){  //- es que emieze a contar del lado contrario
 
+    //let enmascarar=""
+     
+       //if(!!creditCard && creditCard.length >4) {
+         
+         //enmascarar="#".repeat(creditCard.length -4) + creditCard.slice(-4)
+         //console.log(typeof enmascarar)
+         //return  enmascarar
+       
+      //}
+
+   //el 0 indica donde empieza y el sigueinte donde terima o cuantos numeros deseas dejar 
+
+   let numeroReemplazar = creditCard.slice(0, -4);
+    let enmascarar = creditCard.replace(numeroReemplazar, "#".repeat(numeroReemplazar.length));
+    //console.log(transformNumber);
+    return enmascarar;
+}
+}
 //Obtener los valores de los numeros en las posiciones pares 
 // tener toda la logica del algoritmo
 export default validator

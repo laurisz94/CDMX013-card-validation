@@ -9,15 +9,15 @@ Este proyecto es sobre una aplicación de web donde están en el último paso an
 
 ## Imagen del proyecto
 
-https://github.com/laurisz94/CDMX013-card-validation/blob/main/src/imagenes/proyecto.PNG
+![Imagen proyecto] (https://github.com/laurisz94/CDMX013-card-validation/blob/main/src/imagenes/proyecto.PNG)
 
 ## Investigación UX
 El proyecto va dirigida a personas que les guste comprar sobre el cuidado de la piel en el cual en la sección de pago les indique el checkout de los productos que decidieron comprar y les menciona el total de su compra en la cual pueden realizar su compra segura y sin sairse de la misma pagina en caso no ser validada. 
 
 ## Protitpo
 
-https://github.com/laurisz94/CDMX013-card-validation/blob/main/src/imagenes/prototipo1.jpg
-https://github.com/laurisz94/CDMX013-card-validation/blob/main/src/imagenes/prototipo2.jpg
+![Imagen prototipo1] (https://github.com/laurisz94/CDMX013-card-validation/blob/main/src/imagenes/prototipo1.jpg)
+![Imagen prototipo2] (https://github.com/laurisz94/CDMX013-card-validation/blob/main/src/imagenes/prototipo2.jpg)
 
 ## Feedback
 
@@ -27,4 +27,4 @@ https://github.com/laurisz94/CDMX013-card-validation/blob/main/src/imagenes/prot
 
 ## Imagen del prototipo final
 
-https://github.com/laurisz94/CDMX013-card-validation/blob/main/src/imagenes/figma.PNG
+![Imagen Figma] (https://github.com/laurisz94/CDMX013-card-validation/blob/main/src/imagenes/figma.PNG)
